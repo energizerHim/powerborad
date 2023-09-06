@@ -33,7 +33,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('com.h2database:h2')
 
-    //compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
 
     compile("org.mariadb.jdbc:mariadb-java-client")
@@ -41,5 +41,5 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompileOnly('org.projectlombok:lombok')
     testAnnotationProcessor('org.projectlombok:lombok')
-    //testCompile("org.springframework.security:spring-security-test")
+    testCompile("org.springframework.security:spring-security-test")
 }
